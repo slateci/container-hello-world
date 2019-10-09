@@ -16,4 +16,4 @@ docker build .
 docker run -p5000:5000 <name of image>
 
 # now run the kubernetes version
-kubectl apply -f kubernetes.yaml
+kubectl apply -f hello.yaml
